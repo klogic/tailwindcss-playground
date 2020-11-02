@@ -6,7 +6,111 @@
   </head>
 
   <body>
-    <h1>Hello data</h1>
+    <div class="container mx-auto">
+      <p class="mx-auto text-center">box-border</p>
+      <div
+        class="box-border h-20 w-32 p-4 border-4 border-gray-400 bg-gray-200 mx-auto"
+      >
+        <div class="h-full w-full bg-gray-400"></div>
+      </div>
+      <p class="mx-auto text-center">box-content</p>
+      <div
+        class="box-content h-20 w-32 p-4 border-4 border-gray-400 bg-gray-200 mx-auto"
+      >
+        <div class="h-full w-full bg-gray-400"></div>
+      </div>
+      <p class="mx-auto text-center">inline-block</p>
+      <div class="bg-gray-200 text-center">
+        <div
+          class="inline-block text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"
+        >
+          1
+        </div>
+        <div
+          class="inline-block text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"
+        >
+          2
+        </div>
+        <div
+          class="inline-block text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"
+        >
+          3
+        </div>
+      </div>
+      <p class="text-center mx-auto">flex</p>
+      <div class="flex bg-gray-200">
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+          1
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+          2
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+          3
+        </div>
+      </div>
+      <p class="text-center mx-auto">inline-grid</p>
+      <div class="grid gap-4 grid-cols-2">
+        <span class="inline-grid grid-cols-3 gap-x-4 bg-gray-400">
+          <span>1</span>
+          <span>1</span>
+          <span>1</span>
+        </span>
+        <span class="inline-grid grid-cols-3 gap-x-4 bg-gray-400">
+          <span>2</span>
+          <span>2</span>
+          <span>2</span>
+        </span>
+      </div>
+      <p class="text-center mx-auto">contents</p>
+      <div class="flex bg-gray-200">
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+          1
+        </div>
+        <div class="contents">
+          <div
+            class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"
+          >
+            2
+          </div>
+          <div
+            class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"
+          >
+            3
+          </div>
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+          4
+        </div>
+      </div>
+      <p class="text-center mx-auto">table</p>
+      <div class="table w-full">
+        <div class="table-row-group">
+          <div class="table-row">
+            <div class="table-cell bg-gray-400 text-gray-700 px-4 py-2 text-sm">
+              A cell with more content
+            </div>
+            <div class="table-cell bg-gray-200 text-gray-700 px-4 py-2 text-sm">
+              Cell 2
+            </div>
+            <div class="table-cell bg-gray-400 text-gray-700 px-4 py-2 text-sm">
+              Cell 3
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-cell bg-gray-200 text-gray-700 px-4 py-2 text-sm">
+              Cell 4
+            </div>
+            <div class="table-cell bg-gray-400 text-gray-700 px-4 py-2 text-sm">
+              A cell with more content
+            </div>
+            <div class="table-cell bg-gray-200 text-gray-700 px-4 py-2 text-sm">
+              Cell 6
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="md:flex">
       <div class="md:flex-shrink-0">
         <img
